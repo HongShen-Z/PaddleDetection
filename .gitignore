@@ -25,6 +25,7 @@ __pycache__/
 /lib/
 /lib64/
 /output/
+/cache/
 /inference_model/
 /output_inference/
 /parts/

@@ -42,9 +42,13 @@ __all__ = [
     'download_dataset', 'create_voc_list'
 ]
 
-WEIGHTS_HOME = osp.expanduser("~/.cache/paddle/weights")
-DATASET_HOME = osp.expanduser("~/.cache/paddle/dataset")
-CONFIGS_HOME = osp.expanduser("~/.cache/paddle/configs")
+# WEIGHTS_HOME = osp.expanduser("~/.cache/paddle/weights")
+# DATASET_HOME = osp.expanduser("~/.cache/paddle/dataset")
+# CONFIGS_HOME = osp.expanduser("~/.cache/paddle/configs")
+
+WEIGHTS_HOME = osp.expanduser(os.getcwd() + '/cache/weights')
+DATASET_HOME = osp.expanduser(os.getcwd() + '/cache/dataset')
+CONFIGS_HOME = osp.expanduser(os.getcwd() + '/cache/configs')
 
 # dict of {dataset_name: (download_info, sub_dirs)}
 # download info: [(url, md5sum)]
