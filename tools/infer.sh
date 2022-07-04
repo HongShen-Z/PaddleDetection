@@ -5,6 +5,9 @@
 #BSUB -q gpu_v100
 #BSUB -gpu "num=1:mode=exclusive_process:aff=yes"
 
+rm /seu_share/home/dijunyong/220205723/usr/local/cuda
+ln -s /seu_share/home/dijunyong/220205723/usr/local/cuda-10.2 /seu_share/home/dijunyong/220205723/usr/local/cuda
+
 module load anaconda3
 source activate
 conda deactivate
