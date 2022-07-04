@@ -6,7 +6,7 @@
 #BSUB -gpu "num=1:mode=exclusive_process:aff=yes"
 
 export CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES
-echo CUDA_VISIBLE_DEVICES
+echo $CUDA_VISIBLE_DEVICES
 
 #module load anaconda3
 #source activate
