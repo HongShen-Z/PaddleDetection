@@ -5,7 +5,6 @@
 #BSUB -q gpu_v100
 #BSUB -gpu "num=1:mode=exclusive_process:aff=yes"
 
-source ~/.bashrc
 export CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES
 
 module load anaconda3
