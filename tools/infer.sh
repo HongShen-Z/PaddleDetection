@@ -9,7 +9,7 @@ module load anaconda3
 source activate
 conda deactivate
 conda activate paddle
-python infer.py -c configs/ppyolo/ppyolo_r50vd_dcn_1x_coco.yml \
+python tools/infer.py -c configs/ppyolo/ppyolo_r50vd_dcn_1x_coco.yml \
 -o use_gpu=true weights=https://paddledet.bj.bcebos.com/models/ppyolo_r50vd_dcn_1x_coco.pdparams \
 --infer_img=demo/000000014439.jpg
 
