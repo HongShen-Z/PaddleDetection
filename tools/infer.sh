@@ -7,6 +7,7 @@
 
 rm /seu_share/home/dijunyong/220205723/usr/local/cuda
 ln -s /seu_share/home/dijunyong/220205723/usr/local/cuda-10.2 /seu_share/home/dijunyong/220205723/usr/local/cuda
+export CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES
 
 module load anaconda3
 source activate
