@@ -19,6 +19,8 @@ from __future__ import print_function
 import unittest
 import ppdet
 
+from paddle.fluid import core
+
 
 class TestFasterRCNN(unittest.TestCase):
     def setUp(self):
@@ -66,4 +68,5 @@ class TestPicoDet(TestFasterRCNN):
 
 
 if __name__ == '__main__':
+    print(core.cudnn_version())
     unittest.main()
