@@ -90,7 +90,7 @@ if __name__ == '__main__':
     parser.add_argument(
         "--output_dir",
         type=str,
-        default="output",
+        default="output_inference",
         help="Directory for storing the output model files.")
     parser.add_argument(
         "--exclude_nms",
