@@ -11,7 +11,7 @@ module load anaconda3
 source activate
 conda deactivate
 conda activate paddle
-python static/tools/export_model.py -c static/configs/efficientdet_d0.yml \
+python tools/export_model.py -c configs/efficientdet_d0.yml \
 -o use_gpu=true weights=https://paddlemodels.bj.bcebos.com/object_detection/efficientdet_d0.pdparams
 
 #--gpus $CUDA_VISIBLE_DEVICES
