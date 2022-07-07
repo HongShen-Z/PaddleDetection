@@ -12,7 +12,7 @@ source activate
 conda deactivate
 conda activate paddle
 python tools/export_model.py -c configs/ppyoloe/ppyoloe_crn_l_300e_coco.yml \
--o weights=https://paddledet.bj.bcebos.com/models/ppyoloe_crn_l_300e_coco.pdparams
+-o trt=True exclude_nms=True weights=https://paddledet.bj.bcebos.com/models/ppyoloe_crn_l_300e_coco.pdparams
 
 
 #--gpus $CUDA_VISIBLE_DEVICES
