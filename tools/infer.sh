@@ -15,6 +15,7 @@ module load anaconda3
 source activate
 conda deactivate
 conda activate paddle
+which python
 #python setup.py install
 #python ppdet/modeling/tests/test_architectures.py
 python tools/infer.py
