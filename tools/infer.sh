@@ -6,7 +6,7 @@
 #BSUB -gpu "num=1:mode=exclusive_process:aff=yes"
 
 export CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES
-export LD_LIBRARY_PATH=/seu_share/home/dijunyong/220205723/usr/local/cuda-11.2/lib64:/seu_share/home/dijunyong/220205723/usr/local/TensorRT-8.0.0.3/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/seu_share/home/dijunyong/220205723/usr/local/cuda-10.2/lib64:/seu_share/home/dijunyong/220205723/usr/local/TensorRT-8.0.0.3/lib:$LD_LIBRARY_PATH
 
 module load anaconda3
 source activate
