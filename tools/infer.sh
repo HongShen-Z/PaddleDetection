@@ -18,8 +18,8 @@ conda activate paddle
 which python
 #python setup.py install
 #python ppdet/modeling/tests/test_architectures.py
-python -m pip install paddlepaddle_gpu-2.3.0-cp37-cp37m-linux_x86_64.whl
-#python tools/infer.py
+#python -m pip install paddlepaddle_gpu-2.3.0-cp37-cp37m-linux_x86_64.whl
+python tools/infer.py
 #python tools/infer.py -c configs/ppyolo/ppyolo_r50vd_dcn_1x_coco.yml \
 #-o use_gpu=true weights=cache/weights/ppyolo_r50vd_dcn_1x_coco.pdparams \
 #--infer_img=demo/000000014439.jpg
