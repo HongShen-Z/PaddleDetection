@@ -174,9 +174,9 @@ def main():
 
 
 if __name__ == '__main__':
-    print(paddle.version.cuda_version)
-    print(paddle.version.cudnn_version)
-    # from paddle.fluid import core
-    print(paddle.fluid.core.cudnn_version())
-    paddle.utils.run_check()
-    # main()
+    # print(paddle.version.cuda_version)
+    # print(paddle.version.cudnn_version)
+    # # from paddle.fluid import core
+    # print(paddle.fluid.core.cudnn_version())
+    # paddle.utils.run_check()
+    main()
