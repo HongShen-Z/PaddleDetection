@@ -11,9 +11,6 @@ export CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES
 #export LD_LIBRARY_PATH=/seu_share/home/dijunyong/220205723/usr/local/cuda-11.2/lib64:$LD_LIBRARY_PATH
 echo $LD_LIBRARY_PATH
 
-module load gcc-8.2.0
-#module load cudnn-11.2
-#module load cuda-11.3
 module load anaconda3
 source activate
 conda deactivate
