@@ -176,6 +176,6 @@ def main():
 if __name__ == '__main__':
     paddle.version.show()
     # from paddle.fluid import core
-    # print(core.cudnn_version())
-    # paddle.utils.run_check()
+    print(paddle.fluid.core.cudnn_version())
+    paddle.utils.run_check()
     # main()
