@@ -13,6 +13,7 @@ echo $LD_LIBRARY_PATH
 
 module load gcc-8.2.0
 module load cudnn-11.2
+module load cuda-11.3
 module load anaconda3
 source activate
 conda deactivate
