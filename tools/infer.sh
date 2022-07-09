@@ -7,7 +7,7 @@
 
 
 export CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES
-#export LD_LIBRARY_PATH=/seu_share/home/dijunyong/220205723/usr/local/TensorRT-8.0.0.3/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/seu_share/home/dijunyong/220205723/usr/local/TensorRT-7.2.3.4/lib:$LD_LIBRARY_PATH
 #export LD_LIBRARY_PATH=/seu_share/home/dijunyong/220205723/usr/local/cuda-11.2/lib64:$LD_LIBRARY_PATH
 echo $LD_LIBRARY_PATH
 
